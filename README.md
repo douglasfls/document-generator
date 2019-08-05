@@ -12,7 +12,8 @@ This library covers the following documents:
 ##Usage
 If you need the code with ponctuation:
 
-> `const generator = new Generator();` > `console.log(generator.cpf(true));`
+> `const generator = new Generator();` 
+> `console.log(generator.cpf(true));`
 
 result:
 
@@ -20,7 +21,8 @@ result:
 
 If you just need the number of the document:
 
-> `const generator = new Generator();` > `console.log(generator.cpf(false));`
+> `const generator = new Generator();` 
+> `console.log(generator.cpf(false));`
 > or
 > `console.log(generator.cpf());`
 
