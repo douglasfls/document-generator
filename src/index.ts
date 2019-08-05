@@ -102,11 +102,3 @@ class Generator {
 }
 
 const generator = new Generator();
-
-console.log(generator.cpf(true));
-
-console.log(generator.nit(true))
-
-console.log(generator.cnpj(true))
-
-console.log(generator.cei(true))
