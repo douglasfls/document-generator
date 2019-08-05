@@ -1,0 +1,31 @@
+{
+  "name": "document-generator",
+  "version": "1.0.0",
+  "description": "Gerador de documentos brasileiros para testes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "prestart": "tsc --build tsconfig.json",
+    "start": "node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasfls/document-generator.git"
+  },
+  "keywords": [
+    "documento",
+    "gerador",
+    "cpf",
+    "gerador",
+    "cnpj"
+  ],
+  "author": "Douglas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/douglasfls/document-generator/issues"
+  },
+  "homepage": "https://github.com/douglasfls/document-generator#readme",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
